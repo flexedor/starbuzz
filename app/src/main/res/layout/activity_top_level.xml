@@ -21,8 +21,15 @@
         android:id="@+id/list_options"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/options">
-
-    </ListView>
+        android:entries="@array/options"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/favorite"/>
+    <ListView
+        android:id="@+id/list_favorietes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
 </android.support.constraint.ConstraintLayout>
